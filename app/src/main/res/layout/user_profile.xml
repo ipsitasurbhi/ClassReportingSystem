@@ -1,20 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
     android:background="@drawable/bgImg2"
-    android:orientation="vertical">
+    tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/profile_image"
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:layout_marginBottom="50dp"
         android:layout_gravity="center_horizontal"
         android:src="@drawable/baseline_person_24" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="439dp"
         android:orientation="vertical"
         android:padding="26dp">
 
@@ -24,16 +31,16 @@
             android:layout_height="wrap_content"
             android:text="Name : "
             android:textSize="26dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
-        <EditText
+        <TextView
             android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint=""
             android:text="Email Id : "
             android:textSize="26dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/designation"
@@ -41,28 +48,27 @@
             android:layout_height="wrap_content"
             android:text="Designation : "
             android:textSize="26dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
-        <EditText
+        <TextView
             android:id="@+id/phone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Phone No. : "
             android:textSize="26dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
-        <EditText
+        <TextView
             android:id="@+id/dob"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Date Of Birth :"
             android:inputType="date"
             android:textSize="26dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/loginButton"
-            app:cornerRadius="20dp"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginTop="35dp"
@@ -72,7 +78,8 @@
             android:text="Report"
             android:textAlignment="center"
             android:textSize="23sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            app:cornerRadius="20dp" />
     </LinearLayout>
 
 </LinearLayout>
