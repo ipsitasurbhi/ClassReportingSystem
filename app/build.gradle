@@ -58,3 +58,5 @@ dependencies {
     implementation 'com.google.firebase:firebase-database'
     implementation 'com.itextpdf:itextpdf:5.5.13.3'
 }
+
+apply plugin: 'com.google.gms.google-services'
