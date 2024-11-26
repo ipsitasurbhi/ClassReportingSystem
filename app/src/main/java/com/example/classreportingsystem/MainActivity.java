@@ -5,7 +5,7 @@ import android.content.Intent; // Import this to use Intent
 import android.os.Bundle;
 import android.view.View; // Import this to use View
 import android.widget.Button; // Import this to use Button
-import com.google.firebase.FirebaseApp;
+//import com.google.firebase.FirebaseApp;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Initialize Firebase
-        FirebaseApp.initializeApp(this);
+        //FirebaseApp.initializeApp(this);
 
         // Find the "Get Started" button by its ID from the XML
         Button getStartedButton = findViewById(R.id.button);

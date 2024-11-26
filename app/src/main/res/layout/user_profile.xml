@@ -34,11 +34,11 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="439dp"
+        android:layout_height="393dp"
         android:orientation="vertical"
         android:padding="22dp">
 
-        <TextView
+        <EditText
             android:id="@+id/name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -46,7 +46,7 @@
             android:textSize="26dp"
             android:textStyle="bold" />
 
-        <TextView
+        <EditText
             android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -55,7 +55,7 @@
             android:textSize="26dp"
             android:textStyle="bold" />
 
-        <TextView
+        <EditText
             android:id="@+id/designation"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -63,7 +63,7 @@
             android:textSize="26dp"
             android:textStyle="bold" />
 
-        <TextView
+        <EditText
             android:id="@+id/phone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -71,7 +71,7 @@
             android:textSize="26dp"
             android:textStyle="bold" />
 
-        <TextView
+        <EditText
             android:id="@+id/dob"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -82,27 +82,28 @@
 
         <Button
             android:id="@+id/saveButton"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_width="361dp"
+            android:layout_height="31dp"
             android:layout_marginTop="35dp"
             android:padding="5dp"
             android:text="Save changes"
             android:textSize="18sp"
             android:textStyle="italic" />
 
-        <Button
-            android:id="@+id/reportButton"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_marginTop="35dp"
-            android:background="@drawable/edittext"
-            android:backgroundTint="@color/purple"
-            android:padding="11dp"
-            android:text="Report"
-            android:textAlignment="center"
-            android:textSize="23sp"
-            android:textStyle="bold"
-            app:cornerRadius="20dp" />
     </LinearLayout>
+
+    <Button
+        android:id="@+id/reportButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/edittext"
+        android:backgroundTint="@color/purple"
+        android:padding="11dp"
+        android:text="Report"
+        android:textAlignment="center"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:cornerRadius="20dp" />
 
 </LinearLayout>
