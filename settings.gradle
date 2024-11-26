@@ -1,0 +1,17 @@
+// settings.gradle
+pluginManagement {
+    repositories {
+        google() // Add Google repository here
+        mavenCentral()
+    }
+}
+
+dependencyResolutionManagement {
+    repositories {
+        google() // Add Google repository here
+        mavenCentral()
+    }
+}
+
+rootProject.name = "ClassReportingSystem"
+include ':app' // Include your app module

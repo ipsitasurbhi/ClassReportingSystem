@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "948357374278",
+    "project_id": "class-reporting-system-4b192",
+    "storage_bucket": "class-reporting-system-4b192.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948357374278:android:164f94b789d5dc2a9e8547",
+        "android_client_info": {
+          "package_name": "com.example.classreportingsystem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQnQrjO4xOjDC-y431uDRdz-dpGTBNoGY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
