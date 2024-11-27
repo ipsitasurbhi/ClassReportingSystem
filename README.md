@@ -45,22 +45,24 @@ Faculty members no longer need to manually share class details via informal chan
 
 📷 Screenshots
 
-Welcome Page
 ![Screenshot 2024-10-03 095254](https://github.com/user-attachments/assets/15deb612-9c7b-466b-a188-1498205c1599)
+Welcome Page
 
 
-Login Page
 ![Screenshot 2024-10-03 095316](https://github.com/user-attachments/assets/cb67756a-8bed-43f8-a49f-051fdd04d6a3)
+Login Page
 
 
-Change Password Page
 ![Screenshot 2024-10-03 095327](https://github.com/user-attachments/assets/115fa192-cf34-4c0d-8f9d-32efac264d96)
+Change Password Page
 
-User Profile Page
+
 ![Screenshot 2024-10-03 095337](https://github.com/user-attachments/assets/8aa97a74-6bde-4f02-b724-6a0665ad20f6)
+User Profile Page
 
-Form Page 
+
 ![Screenshot 2024-10-03 095348](https://github.com/user-attachments/assets/3d0b46a4-29ff-4e71-b31b-385a649ba6b0)
+Form Page 
 
 🧰 Future Enhancements
 Add multi-language support for broader accessibility.
